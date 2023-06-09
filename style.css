@@ -1,0 +1,96 @@
+h1{
+    font-size: 50px;
+}
+.section{
+    display: flex;
+    background-image: url(Bangladesh-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+   
+}
+
+.div{
+    width: 50%;
+    border: 10px solid black;
+    margin: 10px 10px 10px 10px;
+    padding: 5%;
+    background-color:yellow;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 0px 0px 0px;
+}
+p{
+    text-align: justify;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.div2{
+    width: 70%;
+}
+h3{
+    color: darkred;
+}
+.section2{
+    background-image: none;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(red, darkorange);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+#color{
+    color: darkgreen;
+}
+.button2{
+    text-decoration: none;
+    background-image: linear-gradient(red, green);
+}
+.div3{
+    border: 10px solid darkgreen;
+    margin: 10px 10px 10px 10px;
+    padding: 5%;
+    background-color: darkred;
+}
+.div4{
+    display: flex;
+}
+#id{
+    text-decoration: none;
+    background-image: linear-gradient(black,white);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+.div5{
+    box-shadow: 10px 10px 10px black;
+    width: 40%;
+    border-left: 10px;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 20px;
+    border-left: 10px solid black;
+    
+}
+.div6{
+    box-shadow: 10px 10px 10px yellowgreen;
+    width: 40%;
+    border-left: 10px;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 20px;
+    border-left: 10px solid yellowgreen; 
+   
+     
+}
+#id2{
+    text-decoration: none;
+    background-image: linear-gradient(yellowgreen, orange);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+footer p{
+    text-align: center;
+    background-color: brown;
+    height: 100%;
+}

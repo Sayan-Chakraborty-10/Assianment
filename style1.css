@@ -1,0 +1,133 @@
+body{
+    font-family: 'Alkatra', cursive;
+    margin: 0;
+}
+.div{
+    
+    width: 100%;
+    height: 100%;
+    background-image: url(C.Tiger-8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: orange;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.p{
+    text-align: justify;
+}
+.h1{
+    color: coral;
+}
+.a{
+   text-decoration:none;
+   background-image: linear-gradient(magenta, darkred );
+   padding:0;
+   border-radius: 600px;
+}
+.a2{
+    text-decoration:none;
+    background-image: linear-gradient(darkorange,darkred );
+    padding:10px;
+    border-radius: 600px; 
+}
+.h2{
+    text-align: center;
+}
+.div1{
+    
+    text-align:center;
+    display: flex;
+   margin-left: 500px;
+}
+.h3{
+    padding: 10px 10px 10px 10px;
+}
+.h4{
+    border: 0 solid red;
+   background-color:lightpink;
+   height: 50px;
+   width: 50px;
+   padding: 10px 10px 10px 10px;
+}
+.button{
+    width: 400px;
+    text-align: center;
+}
+.a1{
+    text-decoration:none;
+   background-image: linear-gradient(magenta, darkred );
+   padding:2px;
+   border-radius: 600px;
+   margin-left: 500px;
+}
+.div2{
+    display: flex;
+}
+.h5{
+    border: 0 solid red;
+   background-color:lightcoral;
+   box-shadow: none;
+   margin: 10px 10px 10px 10px;
+   padding: 10px 10px 10px 10px; 
+   box-shadow: 10px 10px 10px lightcoral;
+}
+.h6{
+    border: 0 solid red;
+    background-color:chocolate;
+    box-shadow: 10px 10px 10px chocolate;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px; 
+}
+.h7{
+    border: 0 solid red;
+   background-color:grey;
+   box-shadow: 10px 10px 10px grey;
+   margin: 10px 10px 10px 10px;
+   padding: 10px 10px 10px 10px;
+}
+.div3{
+    width: 20%;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.div4{
+    width: 40%;
+    text-align: center;
+    margin: 100px 100px 100px 100px;
+    border-top: 10px solid red;
+    border-left: 10px solid red;
+    border-radius: 50px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 20px 20px 20px red;
+}
+.button1{
+    background-color: red;
+}
+.div5{
+    border: 0 solid red;
+    background-color:lightcoral;
+    height: 60px;
+    width: 40%; 
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 40px 10px 10px 50px;
+}
+footer h1{
+    color: aqua;
+    text-align: center;
+}
+footer h2{
+    text-align: center;
+}
+footer {
+background-color: darkmagenta;
+}
+.img{
+    margin:100px 100px 100px 100px; 
+}
+#Img{
+    width: 50%;
+    margin-left: 350px;
+}

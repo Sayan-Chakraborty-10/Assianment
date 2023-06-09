@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        h1:hover{
+            color: aqua;
+            background-color: red;
+            text-align: center;
+        }
+        .input:focus{
+               color: brown;
+        }
+        a:visited{
+            color: red;
+        }
+        li:first-child{
+            color: darkmagenta;
+        }
+        li:last-child{
+            color:blue;
+        }
+        li:nth-child(2n){
+            color: crimson;
+        }
+        li:nth-child(2n+1){
+            color: aqua;
+        }
+        h2::before{
+            content:'Hello' ;
+        }
+        h2::after{
+            content: 'Hi';
+        }
+    </style>
+</head>
+<body>
+    <h1>My Name is Sayan Chakraborty</h1>
+    <input type="text" name="" id="">
+    <input type="text" name="" id="">
+    <input class="input" type="text" name="" id="">
+    <input type="text" name="" id="">
+    <input type="text" name="" id="">
+    <a href="https://www.google.com/search?gs_ssp=eJzj4tLP1TfIyK1MKy5TYDRgdGDw4khLTE5Nys_PBgBmYAfL&q=facebook&rlz=1C1GCEA_enBD1049BD1049&oq=f&aqs=chrome.1.69i60j46i131i199i433i465i512j69i57j69i60l2j69i65l3.1955j0j7&sourceid=chrome&ie=UTF-8">Facebook</a>
+    <a href="https://www.youtube.com/">Youtube</a>
+    <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjngriq3Jr-AhXEXg8CHQCPCnIYABABGgJ0Yg&ohost=www.google.com&cid=CAESa-D2nHvpadD4xE27RhWLUin93cCRcHRewTUnhdQOX2LqDEqAt536OXtk62GHCdtwGwdSilamgMND0MLYZY6nsiaRawgM9PcYIZhzN5LaOIORFEqKYRbwJh7uXwMOOmwZyVOLA8JPUGGXkN3-&sig=AOD64_3c52PWj_RwO1c9tHt-e6pH5iv-UA&q&adurl&ved=2ahUKEwiDobGq3Jr-AhVPqVYBHfRABHcQ0Qx6BAgFEAE">New website</a>
+    <ul>
+        <li>My</li>
+        <li>Name</li>
+        <li>Is</li>
+        <li>Sayan</li>
+        <li>Chakraborty</li>
+        <li>Saikat</li>
+        <li>Saikat</li>
+        <li>Saikat</li>
+        <li>Saikat</li>
+    </ul>
+    <h2>Second Header-1</h2>
+    <h2>Second Header-2</h2>
+    <h2>Second Header-3</h2>
+    <h2>Second Header-4</h2>
+    <h2>Second Header-5</h2>
+    <h2>Second Header-6</h2>
+</body>
+</html>
